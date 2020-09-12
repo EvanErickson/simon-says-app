@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,9 +12,72 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KzA-Rq-6Hn">
+                                <rect key="frame" x="0.0" y="796" width="414" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="ian-Cd-YL0"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rMm-1B-Blc">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="796"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="IHc-ZZ-qU3">
+                                        <rect key="frame" x="41.5" y="232.5" width="331" height="331"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aLC-Lc-X4E">
+                                                <rect key="frame" x="0.0" y="0.0" width="331" height="301"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cDl-E2-Oyc">
+                                                        <rect key="frame" x="0.0" y="0.0" width="285" height="301"/>
+                                                        <state key="normal" title="Button"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rfc-hu-lMK">
+                                                        <rect key="frame" x="285" y="0.0" width="46" height="301"/>
+                                                        <state key="normal" title="Button"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yHn-Y0-tZh">
+                                                <rect key="frame" x="0.0" y="301" width="331" height="30"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b5V-db-tGH">
+                                                        <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                                                        <state key="normal" title="Button"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lqW-xj-muS">
+                                                        <rect key="frame" x="46" y="0.0" width="285" height="30"/>
+                                                        <state key="normal" title="Button"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="IHc-ZZ-qU3" secondAttribute="height" multiplier="1:1" id="2HT-xQ-gt5"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92549019607843142" green="0.94117647058823528" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="IHc-ZZ-qU3" firstAttribute="centerY" secondItem="rMm-1B-Blc" secondAttribute="centerY" id="K81-gG-vnI"/>
+                                    <constraint firstItem="IHc-ZZ-qU3" firstAttribute="width" secondItem="rMm-1B-Blc" secondAttribute="width" multiplier="80%" id="j7o-0q-sXd"/>
+                                    <constraint firstItem="IHc-ZZ-qU3" firstAttribute="centerX" secondItem="rMm-1B-Blc" secondAttribute="centerX" id="u9P-ll-b7i"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.17254901960784313" green="0.24313725490196078" blue="0.31372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KzA-Rq-6Hn" secondAttribute="trailing" id="GYW-Bj-BJa"/>
+                            <constraint firstItem="KzA-Rq-6Hn" firstAttribute="top" secondItem="rMm-1B-Blc" secondAttribute="bottom" id="Mid-nu-CTH"/>
+                            <constraint firstItem="rMm-1B-Blc" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Oc8-1w-8Wp"/>
+                            <constraint firstItem="rMm-1B-Blc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Y1b-kn-zHa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rMm-1B-Blc" secondAttribute="trailing" id="cMD-Yx-HVh"/>
+                            <constraint firstItem="KzA-Rq-6Hn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fzG-7h-wis"/>
+                            <constraint firstAttribute="bottom" secondItem="KzA-Rq-6Hn" secondAttribute="bottom" id="y6C-8Y-vMI"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>

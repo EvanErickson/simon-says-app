@@ -15,6 +15,7 @@
 		200EC638250C7EBF00BF2B1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200EC636250C7EBF00BF2B1B /* LaunchScreen.storyboard */; };
 		200EC643250C7EC000BF2B1B /* Simon_SaysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200EC642250C7EC000BF2B1B /* Simon_SaysTests.swift */; };
 		200EC64E250C7EC000BF2B1B /* Simon_SaysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200EC64D250C7EC000BF2B1B /* Simon_SaysUITests.swift */; };
+		200EC65C250C7FFD00BF2B1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200EC65B250C7FFD00BF2B1B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		200EC649250C7EC000BF2B1B /* Simon SaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simon SaysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		200EC64D250C7EC000BF2B1B /* Simon_SaysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simon_SaysUITests.swift; sourceTree = "<group>"; };
 		200EC64F250C7EC000BF2B1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		200EC65B250C7FFD00BF2B1B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				200EC636250C7EBF00BF2B1B /* LaunchScreen.storyboard */,
 				200EC639250C7EBF00BF2B1B /* Info.plist */,
 				200EC633250C7EBF00BF2B1B /* Preview Content */,
+				200EC65B250C7FFD00BF2B1B /* Main.storyboard */,
 			);
 			path = "Simon Says";
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				200EC638250C7EBF00BF2B1B /* LaunchScreen.storyboard in Resources */,
 				200EC635250C7EBF00BF2B1B /* Preview Assets.xcassets in Resources */,
 				200EC632250C7EBF00BF2B1B /* Assets.xcassets in Resources */,
+				200EC65C250C7FFD00BF2B1B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
